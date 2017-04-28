@@ -690,6 +690,7 @@ namespace CNTK
         // Version 8: Add ELU node.
         // Version 9: Add OneHot node.
         // Version 10: Add Pow operator.
-        static const size_t s_serializationVersion = 10;
+        // Version 11: Add Gather operator.
+        static const size_t s_serializationVersion = 11;
     };
 }
